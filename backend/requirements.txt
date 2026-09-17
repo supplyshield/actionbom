@@ -1,0 +1,16 @@
+# FastAPI
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# Database
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+
+# GitHub API
+requests==2.31.0
+
+# Cron scheduling
+apscheduler==3.10.4
+
+# Environment variables
+python-dotenv==1.0.0
