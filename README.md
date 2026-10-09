@@ -197,6 +197,11 @@ docker compose build
 
 See [backend/README.md](backend/README.md) for development-specific notes.
 
+## 👥 Contributors
+Alfin Joseph
+Ashwin Shenoi
+Yadhu Krishna M
+
 ## Contributing
 
 Issues and PRs welcome. Please:
