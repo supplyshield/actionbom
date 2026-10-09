@@ -70,7 +70,7 @@ All configuration lives in `.env` (copy `.env.example` to start).
 | `BATCH_SIZE` | `50` | Repos scanned per cron tick. |
 | `RATE_LIMIT_THRESHOLD` | `500` | Abort a cron run if fewer than this many GitHub API requests remain. |
 | `SLACK_WEBHOOK_URL` | *(empty)* | Incoming webhook URL. Leave blank to disable Slack alerts. |
-| `SLACK_CC_USER_ID` | *(empty)* | Slack user ID to cc on template-injection alerts (e.g. `U08FVDUN2MS`). |
+| `SLACK_CC_USER_ID` | *(empty)* | Slack user ID to cc on template-injection alerts. |
 | `DASHBOARD_BASE_URL` | `http://localhost:9000` | Used in Slack alert links. Set to your public URL in production. |
 | `LOG_LEVEL` | `INFO` | uvicorn log level. |
 | `DATABASE_URL` | *(compose-managed)* | Ignore under docker-compose — compose injects it. Set only for standalone dev against your own Postgres. |
